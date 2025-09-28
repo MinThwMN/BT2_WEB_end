@@ -1,0 +1,76 @@
+
+
+h1,
+h2 {
+    margin-top: 0;
+}
+th {
+    padding: 2px;
+    text-align: center;
+}
+div{
+    margin:30px;
+}
+.element {
+    margin: 20px;
+}
+
+textarea {
+  width: 700px;   
+  height: 150px; 
+}
+
+#ht,#em{
+    width: 250px;
+}
+/* style chuyển qua .css*/
+h1,h2,h3,h4 
+{
+    font-size: 24px;
+    -webkit-text-stroke: 0.8px black;
+}
+.d1{
+    background-color: #F3FDE8;
+}
+.d2{
+    width: 800px;
+    height: auto;
+    margin: 20px auto;
+    background-image:  url('background2.jpg');
+    background-repeat: repeat;
+    text-align: center;
+}
+table{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 8px;
+}
+
+th,td{
+    border: 1px solid black;
+
+}
+form,
+table {
+    border: 2px solid blue;
+    width: 800px;
+    margin: 20px auto;
+}
+
+
+footer, nav{
+    background-color: #d4f2f4;
+    color: #0b0848;
+}
+/*
+
+Hoàn chỉnh trang web: 
+✓ Sử dụng thẻ <nav> để làm menu, sử dụng thẻ <a> với thuộc tính href dẫn đến đúng 
+vị trí của hai phần “Giới thiệu bản thân” và “Gửi thông tin và liên hệ cùng tôi”. Vị 
+trí của của hai phần này đươc xác định bằng thuộc tính id trong thẻ <div> chứa hai 
+phần đó. Dùng thẻ <footer> và thẻ <p> để thêm thông tin về người thực hiện trang 
+web với công thức “@2024 MSSV HoTen”? 
+✓ Cả hai thành phần <nav> và <footer> đều được sử dụng css với background màu 
+#d4f2f4 và chữ màu #0b0848?
+*/
+
