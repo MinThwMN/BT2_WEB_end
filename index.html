@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài tập 2</title>
+    <link rel="stylesheet" type="text/css" href="style.css" >
+    
+</head>
+
+<body>
+    <nav>
+        <a href="#d1">Giới thiệu bản thân</a>
+        <br>
+        <a href="#d2">Gửi thông tin và liên hệ cùng tôi</a>
+    </nav>
+    <div id ="d1" class="d1">
+        <h1 style="color: #CAEDFF;">Giới thiệu bản thân</h1>
+        <img src="image.jpg" alt="profile" height="150px" 
+            width="150px" style="display: block; margin: 0 auto" >
+        <h2 style="color: #D8B4F8;">Thông tin cơ bản</h2>
+        <ul>
+            <li>Tên: Lê Nguyễn Minh Thư</li>
+            <li>Năm sinh: 2005</li>
+            <li>Chuyên ngành: Hệ thống thông tin</li>
+        </ul>
+        <h2 style="color: #D8B4F8;">Sở thích</h2>
+        <h3 style="color:#FFC7EA">Món ăn</h3>
+        <ol>
+            <li>Quả na</li>
+            <li>Mì bò rau thơm</li>
+            <li>Bánh đuông dừa</li>
+        </ol>
+        <h3 style="color:#FFC7EA">Giải trí</h3>
+        <h4>Trò chơi</h4>
+        <ul>
+            <li>Bắn bi</li>
+            <li>Nhảy dây</li>
+            <li>Đá cầu</li>
+        </ul>
+        <h4>Bài hát yêu thích</h4>
+        <ul>
+            <li>Đôi mắt_Wanbi Tuấn Anh</li>
+            <li>Bối rối_Đông Nhi</li>
+            <li>Anh lại trễ hẹn nữa rồi_Lương Bích Hữu</li>
+        </ul>
+    
+        <table >
+
+            <tr><th><h2 style="color: #D8B4F8;">Mục tiêu của bản thân</h2></th></tr>
+            <tr>
+                <th><b>Mục tiêu</b></th>
+                <th><b>Thời hạn</b></th>
+                <th><b>Hoàn thành</b></th>
+            </tr>
+            <tr>
+                <td>Trung bình điểm môn web đạt 8.0</td>
+                <td style="text-align:center">20/10/2025</td>
+                <td style="text-align:center"><input type="checkbox" id="mt1" name="mt1" value="ht1"</td>
+            </tr>
+            <tr>
+                <td>Đạt chứng chỉ ngoại ngữ đủ chuẩn tốt nghiệp</td>
+                <td style="text-align:center">30/12/2025</td>
+                <td style="text-align:center"><input type="checkbox" id="mt2" name="mt2" value="ht2"</td>
+            </tr>
+            <tr>
+                <td>Chọn được công ty với vị trí BA</td>
+                <td style="text-align:center">20/03/2026</td>
+                <td style="text-align:center"><input type="checkbox" id="mt3" name="mt3" value="ht3"</td>
+            </tr>
+        </table>
+        </div>
+    <div id="d2"class="d2">
+        <form name="yeucau" method="Post">
+            <div class="element">
+                <h1 style="color: #CAEDFF;">Gửi thông tin và giao lưu cùng tôi</h1>
+            </div>
+            <div class="element">
+                Họ và tên: <input type="text" id="ht" name="hoten"/>
+            <br>
+            </div>
+            <div class="element">
+                Email: <input type="text" id="em" name="email"/>
+            <br>
+            </div>
+            <div class="element">
+                Tin nhắn: <br>
+                <textarea cols="5" name="mes"></textarea>
+            <br>
+            </div>
+            <div class="element">
+                Giới tính:<br>
+                Nam: <input type="radio" name="gioitinh" value="1"/>
+                Nữ: <input type="radio" name="gioitinh" value="0"/><br>
+            </div>
+            <div class="element">
+                Sở thích: <br>
+                Nghe nhạc: <input type="checkbox" id="st1" name="sothich1" value="nghenhac"/>
+                Bơi lội: <input type="checkbox" id="st2" name="sothich2" value="boiloi"/>
+                Biển: <input type="checkbox" id="st3" name"sothich3" value="bien"/>
+            <br>
+            </div>
+            <div class="element">
+                Ngành:
+                <select>
+                    <option>Khoa học máy tính</option>
+                    <option>Công nghệ thông tin</option>
+                    <option>Hệ thống thông tin</option>
+                    <option>Khoa học dữ liệu</option>
+                </select><br>
+            </div>
+            <div class="element">
+                <input type="submit" name="gui" value="Gửi"/>
+            </div>
+            
+        </form>
+        
+    </div>
+    <footer >
+        <p>@2024 23521539 Lê Nguyễn Minh Thư</p>
+    </footer>
+</body>
+
+</html>
